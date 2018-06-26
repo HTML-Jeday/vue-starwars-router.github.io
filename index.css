@@ -1,0 +1,22 @@
+body{
+    background: #263238;
+}
+#app{
+    font-family: 'Avenir', Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: grayscale;
+    text-align: center;
+    color: #fff;
+    margin-top: 60px;
+}
+.link, .link:hover, .link:visited, .link:active{
+    color: #4fc08d
+}
+.item-card{
+    border: 2px solid #4FC08D;
+    border-radius: 4px;
+    padding: 15px;
+    cursor: pointer;
+}
+.card-container{
+    display: flex;
+}
